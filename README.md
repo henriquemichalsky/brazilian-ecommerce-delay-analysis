@@ -17,16 +17,8 @@ Entender os padrões de atraso em entregas do e-commerce brasileiro e construir 
 
 ## 🗂️ Estrutura do Projeto
 Projeto_2/
-├── Projeto_2.ipynb # Notebook principal com toda a análise
-├── images/
-│ ├── grafico_atraso_estado.png
-│ ├── grafico_atraso_mes.png
-│ ├── grafico_atraso_distancia.png
-│ ├── grafico_volume_pedidos.png
-│ ├── grafico_receita_ticket.png
-│ ├── grafico_matriz_confusao.png
-│ ├── grafico_importancia_features.png
-│ └── grafico_curva_roc.png
+├── Projeto_2.ipynb 
+├── images/ # Gráficos gerados automaticamente pelo notebook
 └── README.md
 
 > ⚠️ **Os arquivos CSV não estão incluídos neste repositório por serem grandes demais.**
