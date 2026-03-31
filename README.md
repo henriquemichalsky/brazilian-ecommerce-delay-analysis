@@ -1,7 +1,7 @@
 # 🚚 Previsão de Atrasos em Entregas — E-commerce Olist
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange) 
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange)
 ![SQL](https://img.shields.io/badge/SQL-SQLite-lightgrey)
 ![Status](https://img.shields.io/badge/Status-Concluído-green)
 
@@ -16,10 +16,11 @@ Entender os padrões de atraso em entregas do e-commerce brasileiro e construir 
 ---
 
 ## 🗂️ Estrutura do Projeto
-Projeto_2/
+olist-delivery-delay-prediction/
 ├── Projeto_2.ipynb 
 ├── images/ # Gráficos gerados automaticamente pelo notebook
 └── README.md
+
 
 > ⚠️ **Os arquivos CSV não estão incluídos neste repositório por serem grandes demais.**
 > Faça o download diretamente pelo Kaggle e coloque-os na raiz do projeto antes de executar o notebook:
@@ -32,7 +33,7 @@ Projeto_2/
 - **Dataset:** [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — Kaggle
 - **Tabelas utilizadas:** `orders`, `customers`, `sellers`, `products`, `order_items`, `order_payments`, `order_reviews`, `geolocation`, `product_category_name_translation`
 - **Armazenamento:** os CSVs foram carregados e persistidos em um banco **SQLite** para consultas via SQL
-- 
+
 ---
 
 ## 🔧 Tecnologias e Bibliotecas
@@ -67,6 +68,24 @@ Projeto_2/
 | **Por Mês** | Março (17,0%) e Novembro (14,7%) são os meses mais críticos — sazonalidade de verão e Black Friday |
 | **Por Distância** | Pedidos acima de 2.000 km atrasam **2× mais** do que pedidos locais (13,7% vs 6,6%) |
 | **Série Temporal** | Crescimento contínuo de volume de pedidos e receita ao longo de 2016–2018 |
+
+**Taxa de atraso por estado:**
+
+![Atraso por Estado](images/grafico_atraso_estado.png)
+
+**Sazonalidade dos atrasos ao longo do ano:**
+
+![Atraso por Mês](images/grafico_atraso_mes.png)
+
+**Taxa de atraso por distância entre vendedor e cliente:**
+
+![Atraso por Distância](images/grafico_atraso_distancia.png)
+
+**Volume de pedidos ao longo do tempo:**
+
+![Volume de Pedidos](images/grafico_volume_pedidos.png)
+
+---
 
 ### 3. Preparação dos Dados para ML
 
@@ -105,6 +124,18 @@ A avaliação foi feita com **Classification Report**, **Matriz de Confusão** e
 | F1-Score (Atrasado) | 0,37 |
 
 > O modelo identifica **51% dos atrasos reais** antes que aconteçam — um resultado expressivo para um dataset com apenas 9% de classe positiva.
+
+**Importância das features:**
+
+![Importância das Features](images/grafico_importancia_features.png)
+
+**Matriz de Confusão:**
+
+![Matriz de Confusão](images/grafico_matriz_confusao.png)
+
+**Curva ROC:**
+
+![Curva ROC](images/grafico_curva_roc.png)
 
 **Features mais importantes (por importância Gini):**
 1. `distancia_km` — principal fator preditivo
