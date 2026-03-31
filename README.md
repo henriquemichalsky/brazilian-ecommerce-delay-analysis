@@ -1,6 +1,6 @@
 # 🚚 Previsão de Atrasos em Entregas — E-commerce Olist
 
-> 🚚 Análise exploratória e modelo preditivo (Random Forest) para identificar pedidos com risco de atraso em um e-commerce brasileiro — dataset público Olist | Python · SQL · scikit-learn
+> Análise exploratória e modelo preditivo (Random Forest) para identificar pedidos com risco de atraso em um e-commerce brasileiro — dataset público Olist | Python · SQL · scikit-learn
 
 ---
 
