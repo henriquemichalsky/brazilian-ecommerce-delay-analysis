@@ -32,17 +32,7 @@ Projeto_2/
 - **Dataset:** [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — Kaggle
 - **Tabelas utilizadas:** `orders`, `customers`, `sellers`, `products`, `order_items`, `order_payments`, `order_reviews`, `geolocation`, `product_category_name_translation`
 - **Armazenamento:** os CSVs foram carregados e persistidos em um banco **SQLite** para consultas via SQL
-
-Após baixar, a pasta deve conter os seguintes arquivos:
-olist_customers_dataset.csv
-olist_geolocation_dataset.csv
-olist_order_items_dataset.csv
-olist_order_payments_dataset.csv
-olist_order_reviews_dataset.csv
-olist_orders_dataset.csv
-olist_products_dataset.csv
-olist_sellers_dataset.csv
-product_category_name_translation.csv
+- 
 ---
 
 ## 🔧 Tecnologias e Bibliotecas
