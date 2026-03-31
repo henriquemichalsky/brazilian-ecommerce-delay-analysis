@@ -1,7 +1,7 @@
 # 🚚 Previsão de Atrasos em Entregas — E-commerce Olist
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange) 
 ![SQL](https://img.shields.io/badge/SQL-SQLite-lightgrey)
 ![Status](https://img.shields.io/badge/Status-Concluído-green)
 
